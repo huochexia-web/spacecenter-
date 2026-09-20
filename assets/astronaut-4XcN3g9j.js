@@ -1,0 +1,1 @@
+import{G as r}from"./index-veAKls_a.js";const s={list(t){return r.get("/astronauts",t)},create(t){return r.post("/astronauts",t)},update(t,e){return r.put(`/astronauts/${t}`,e)},remove(t){return r.delete(`/astronauts/${t}`)},batchRemove(t){return r.delete("/astronauts/batch",{ids:t})},exportList(t){return r.get("/astronauts/export",t)}};export{s as a};
